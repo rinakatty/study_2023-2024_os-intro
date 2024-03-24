@@ -151,5 +151,41 @@
    ``` shell
     reboot
    ```
-- Папка будет монтироваться в /media/sf_work.    
+- Папка будет монтироваться в /media/sf_work.
+11. Установка программного обеспечения для создания документации
 
+Работа с языком разметки Markdown
+
+- Установка pandoc с помощью менеджера пакетов:
+   ``` shell
+    dnf -y install pandoc
+   ```
+![image](https://github.com/rinakatty/study_2023-2024_os-intro/assets/160457049/8f08567c-8cf5-456d-8270-331959dd81c8)
+texlive
+- Установлен дистрибутив TeXlive:
+   ``` shell
+    dnf -y install texlive-scheme-full
+   ```
+
+## Домашнее задание
+
+При помощи команд:
+   ``` shell
+    dmesg | less
+    dmesg | grep -i "то, что ищем"
+   ```
+Полуена следующая информация:
+- Версия ядра Linux (Linux version):
+  
+- Частота процессора (Detected Mhz processor):
+  
+- Модель процессора (CPU0):
+  
+- Объём доступной оперативной памяти (Memory available):
+  
+- Тип обнаруженного гипервизора (Hypervisor detected):
+  
+- Тип файловой системы корневого раздела:
+  
+- Последовательность монтирования файловых систем:
+  
