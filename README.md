@@ -58,11 +58,15 @@
    ``` shell
     reboot
    ```
+   ![image](https://github.com/rinakatty/study_2023-2024_os-intro/assets/160457049/b91d1d6d-e11e-4c97-ac46-211a340d6559)
+
 7.   Установка драйверов для VirtualBox:
 - Установка средств разработки:
    ``` shell
     dnf -y group install "Development Tools"
-   ```    
+   ```
+   ![image](https://github.com/rinakatty/study_2023-2024_os-intro/assets/160457049/754c73c2-84e6-4045-b309-d7b0ebd61e06)
+    
 - Установка пакета DKMS::
    ``` shell
     dnf -y install dkms
@@ -80,7 +84,14 @@
    ``` shell
     reboot
    ```
-
+8.   Настройка раскладки клавиатуры:
+   
+- Выполнен вход в ОС под заданной вами при установке учётной записью
+- Запущен терминал
+- Запущен терминальный мультиплексор tmux:
+   ``` shell
+    tmux
+   ```    
 
 
 
