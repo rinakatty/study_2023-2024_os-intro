@@ -1,0 +1,58 @@
+# Отчет по лабораторной работе №2 
+## дисциплина: "Операционные системы"
+
+Студент: Рыскалова Екатерина Андреевна
+###
+Группа: НПМбв02-20
+
+
+# Цель работы
+
+- Изучить идеологию и применение средств контроля версий.
+- Освоить умения по работе с git.
+
+# Ход работы
+
+1.   Установка git
+   ``` shell
+    dnf install git
+   ```
+![image](https://github.com/rinakatty/study_2023-2024_os-intro/assets/160457049/3285fc9b-fdea-4cc6-af12-bd1123802d65)
+
+2.   Установка gh
+   ``` shell
+    dnf install gh
+   ```
+![image](https://github.com/rinakatty/study_2023-2024_os-intro/assets/160457049/21933a87-b4bf-4b09-b5b9-41b644313010)
+
+3.   Базовая настройка git
+- Зададим имя и email владельца репозитория:
+   ``` shell
+    git config --global user.name "Name Surname"
+    git config --global user.email "work@mail"
+   ```
+
+- Настроим utf-8 в выводе сообщений git:
+   ``` shell
+    git config --global core.quotepath false
+   ```
+
+- Настройте верификацию и подписание коммитов git (см. Верификация коммитов git с помощью GPG).
+- Зададим имя начальной ветки (будем называть её master):
+   ``` shell
+    git config --global init.defaultBranch master
+   ```
+
+- Параметр autocrlf:
+   ``` shell
+    git config --global core.autocrlf input
+   ```
+
+- Параметр safecrlf:
+   ``` shell
+    git config --global core.safecrlf warn
+   ```
+
+4.   
+5.   
+   
