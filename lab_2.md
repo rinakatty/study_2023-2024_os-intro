@@ -31,11 +31,11 @@
     git config --global user.name "Name Surname"
     git config --global user.email "work@mail"
    ```
-
 - Настроим utf-8 в выводе сообщений git:
    ``` shell
     git config --global core.quotepath false
    ```
+![image](https://github.com/rinakatty/study_2023-2024_os-intro/assets/160457049/d1e56aa0-75d7-4e31-b363-c5bfa2790d22)
 
 - Настройте верификацию и подписание коммитов git (см. Верификация коммитов git с помощью GPG).
 - Зададим имя начальной ветки (будем называть её master):
