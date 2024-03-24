@@ -52,6 +52,8 @@
    ``` shell
     /etc/selinux/config
    ```
+   ![image](https://github.com/rinakatty/study_2023-2024_os-intro/assets/160457049/e291c766-4ba0-49b6-8409-30a3faf81243)
+
 - Перезагрузка виртуальной машины:
    ``` shell
     reboot
