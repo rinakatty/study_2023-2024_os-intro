@@ -12,30 +12,75 @@
 
 # Ход работы
 
-1.   Установлена ОС Linux Fedora на виртуальную машину VirtualBox
+1.   Установлена ОС Linux Fedora на виртуальную машину VirtualBox:
+
 
    ![image](https://github.com/rinakatty/study_2023-2024_os-intro/assets/160457049/a5b5134b-8d4e-41d7-9c6d-540707a29f47)
 
--   Например, для 2023--2024 учебного года и предмета «Операционные системы» (код предмета `os-intro`) структура каталогов примет следующий вид:
+2.   Выполнен вход в учетную запись, открыт терминал, произведено переключение на роль root-пользователя:
 
-    ``` bash
-    ~/work/study/
-    └── 2023-2024/
-        └── Операционные системы/
-            └── os-intro/
-    ```
+   
+   ``` shell
+    sudo -i
+   ```
 
--   Название проекта на хостинге git имеет вид:
+   ![image](https://github.com/rinakatty/study_2023-2024_os-intro/assets/160457049/37fd64d8-7474-428d-b6ec-9049277b09af)
 
-    ``` example
-    study_<учебный год>_<код предмета>
-    ```
+3.   Обновлены все пакеты:
+   ``` shell
+    dnf -y update
+   ```
+![image](https://github.com/rinakatty/study_2023-2024_os-intro/assets/160457049/16665252-3519-489d-a810-602e67a0b70c)
 
--   Например, для 2023--2024 учебного года и предмета «Операционные системы» (код предмета `os-intro`) название проекта примет следующий вид:
 
-    ``` example
-    study_2023-2024_os-intro
-    ```
+4.   Установлены программы для удобства работы в консоли:
+   ``` shell
+    dnf -y install tmux mc
+   ```
+![image](https://github.com/rinakatty/study_2023-2024_os-intro/assets/160457049/1ced0159-e43a-4513-8622-6a339456ece1)
+
+5.   Установлено программное обеспечение для автоматического обновления, запущен таймер:
+   ``` shell
+    dnf install dnf-automatic
+    systemctl enable --now dnf-automatic.timer
+   ```
+![image](https://github.com/rinakatty/study_2023-2024_os-intro/assets/160457049/32c1b648-c6f8-4cf5-ae67-a5831ae2ffaf)
+
+
+6.   Отключен SELinux
+- Замена SELINUX=enforcing на значение SELINUX=permissive в файле:
+   ``` shell
+    /etc/selinux/config
+   ```
+- Перезагрузка виртуальной машины:
+   ``` shell
+    reboot
+   ```
+7.   Установка драйверов для VirtualBox:
+- Установка средств разработки:
+   ``` shell
+    dnf -y group install "Development Tools"
+   ```    
+- Установка пакета DKMS::
+   ``` shell
+    dnf -y install dkms
+   ```
+- В меню виртуальной машины подключите образ диска дополнений гостевой ОС.
+- Диск подмонтирован:
+   ``` shell
+    mount /dev/sr0 /media
+   ```
+- Установлены драйвера:
+   ``` shell
+    /media/VBoxLinuxAdditions.run
+   ```
+- Перезагрузка виртуальной машины:
+   ``` shell
+    reboot
+   ```
+
+
+
 
 -   Каталог для лабораторных работ имеет вид `labs`.
 
