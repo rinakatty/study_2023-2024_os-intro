@@ -98,14 +98,12 @@
    ``` shell
     tmux
    ```  
-- Создан конфигурационный файл
-   ``` shell
-    touch ~/.config/sway/config.d/95-system-keyboard-config.conf
-   ``` 
-- Отредактирован конфигурационный файл
-   ``` shell
-    exec_always /usr/libexec/sway-systemd/locale1-xkb-config --oneshot
-   ``` 
+- Открыт конфигурационный файл:
+  ![image](https://github.com/rinakatty/study_2023-2024_os-intro/assets/160457049/d04e2d5d-8213-455f-ae28-c9453d602976)
+
+- Отредактирован конфигурационный файл:
+![image](https://github.com/rinakatty/study_2023-2024_os-intro/assets/160457049/e816a3fb-ebb1-439f-9bb0-6f6677283e93)
+
 - Перезагрузка виртуальной машины:
    ``` shell
     reboot
@@ -140,5 +138,18 @@
    ```
  ![image](https://github.com/rinakatty/study_2023-2024_os-intro/assets/160457049/146a9b60-b911-47d7-ad5e-fe074c0cba32)
    
-
+10. Подключение общей папки
+- Внутри виртуальной машины добавьте своего пользователя в группу vboxsf:
+   ``` shell
+    gpasswd -a earyskalova vboxsf
+   ```
+- В хостовой системе подключите разделяемую папку:
+   ``` shell
+    vboxmanage sharedfolder add "$(id -un)_os-intro" --name=work --hostpath=work --automount
+   ```
+- Перезагрузка виртуальной машины:
+   ``` shell
+    reboot
+   ```
+- Папка будет монтироваться в /media/sf_work.    
 
