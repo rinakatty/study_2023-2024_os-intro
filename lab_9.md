@@ -20,9 +20,11 @@
 
 emacs script01
 
-![image](https://github.com/rinakatty/study_2023-2024_os-intro/assets/160457049/ad4060b6-63f8-4bf3-b622-ebbcc3bc83f1)
+![image](https://github.com/rinakatty/study_2023-2024_os-intro/assets/160457049/9abc6dc6-693b-4933-8419-72f8d72f9d70)
 
-![image](https://github.com/rinakatty/study_2023-2024_os-intro/assets/160457049/c7d03d3e-42c0-48f3-8c6f-bbc06a9eff19)
+![image](https://github.com/rinakatty/study_2023-2024_os-intro/assets/160457049/5c3c09e6-58f4-4492-b4e4-cdce857756a7)
+
+![image](https://github.com/rinakatty/study_2023-2024_os-intro/assets/160457049/611a6238-a339-482b-80c2-de56e5658377)
 
 
 2. Написать пример командного файла, обрабатывающего любое произвольное число
