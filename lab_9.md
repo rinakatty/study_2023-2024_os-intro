@@ -2,6 +2,7 @@
 ## дисциплина: "Операционные системы"
 
 Студент: Рыскалова Екатерина Андреевна
+
 ###
 Группа: НПМбв02-20
 
@@ -20,6 +21,7 @@
 emacs script01
 
 ![image](https://github.com/rinakatty/study_2023-2024_os-intro/assets/160457049/ad4060b6-63f8-4bf3-b622-ebbcc3bc83f1)
+
 ![image](https://github.com/rinakatty/study_2023-2024_os-intro/assets/160457049/c7d03d3e-42c0-48f3-8c6f-bbc06a9eff19)
 
 
@@ -28,19 +30,30 @@ emacs script01
 может последовательно распечатывать значения всех переданных аргументов.
 
 ![image](https://github.com/rinakatty/study_2023-2024_os-intro/assets/160457049/83de0e7c-f3dc-4bdf-9601-06ce1adeaab2)
+
 ![image](https://github.com/rinakatty/study_2023-2024_os-intro/assets/160457049/7dbbc928-f997-4080-966f-5ffb47fb3cf4)
+
 ![image](https://github.com/rinakatty/study_2023-2024_os-intro/assets/160457049/3932f0ea-25b5-4312-b580-fb5881b82baa)
 
 3. Написать командный файл — аналог команды ls (без использования самой этой команды и команды dir). Требуется, чтобы он выдавал информацию о нужном каталоге
 и выводил информацию о возможностях доступа к файлам этого каталога.
 
 ![image](https://github.com/rinakatty/study_2023-2024_os-intro/assets/160457049/8db37152-9e72-45de-aaed-92361d0d8f68)
+
 ![image](https://github.com/rinakatty/study_2023-2024_os-intro/assets/160457049/5b337347-4192-4f73-a71e-63ef3752e515)
+
+![image](https://github.com/rinakatty/study_2023-2024_os-intro/assets/160457049/45a2562f-c259-4b40-a4f6-f09837c58ef1)
 
 
 4. Написать командный файл, который получает в качестве аргумента командной строки
 формат файла (.txt, .doc, .jpg, .pdf и т.д.) и вычисляет количество таких файлов
 в указанной директории. Путь к директории также передаётся в виде аргумента командной строки.
+
+![image](https://github.com/rinakatty/study_2023-2024_os-intro/assets/160457049/3ed937f2-afa2-4136-9ba5-8b9017ab4786)
+
+![image](https://github.com/rinakatty/study_2023-2024_os-intro/assets/160457049/7eeb0b73-1751-444c-80ea-097848c110bb)
+
+![image](https://github.com/rinakatty/study_2023-2024_os-intro/assets/160457049/ed8c1977-a548-4d5e-a415-f2c97bb035b7)
 
 # Контрольные вопросы
 
