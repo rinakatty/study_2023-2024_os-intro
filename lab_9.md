@@ -18,9 +18,8 @@
 в вашем домашнем каталоге. При этом файл должен архивироваться одним из архиваторов на выбор zip, bzip2 или tar. Способ использования команд архивации
 необходимо узнать, изучив справку.
 
-emacs script01
 
-![image](https://github.com/rinakatty/study_2023-2024_os-intro/assets/160457049/9abc6dc6-693b-4933-8419-72f8d72f9d70)
+![image](https://github.com/rinakatty/study_2023-2024_os-intro/assets/160457049/9c272e75-ba36-4746-8226-beb265b2891e)
 
 ![image](https://github.com/rinakatty/study_2023-2024_os-intro/assets/160457049/5c3c09e6-58f4-4492-b4e4-cdce857756a7)
 
