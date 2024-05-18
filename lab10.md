@@ -36,3 +36,6 @@
 ![image](https://github.com/rinakatty/study_2023-2024_os-intro/assets/160457049/0dd2ca2b-01b5-499b-a8bb-99ac9fdd9b28)
 
 ![image](https://github.com/rinakatty/study_2023-2024_os-intro/assets/160457049/90f18908-419c-4ab2-9e0f-cfcb076a1961)
+
+![image](https://github.com/rinakatty/study_2023-2024_os-intro/assets/160457049/7e132747-3ec8-4cbf-92a8-cbec3614d27f)
+
