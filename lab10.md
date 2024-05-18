@@ -23,3 +23,6 @@
 – -n — выдавать номера строк.
 
 ![image](https://github.com/rinakatty/study_2023-2024_os-intro/assets/160457049/35801410-0b67-40f9-b2c8-d1642fcd1bb2)
+
+
+![image](https://github.com/rinakatty/study_2023-2024_os-intro/assets/160457049/ab17911e-bb1e-4abe-b5d8-cb3773fe5bb4)
